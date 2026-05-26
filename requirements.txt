@@ -1,0 +1,18 @@
+# ============================================================
+# dong_converter — Python dependencies
+# ============================================================
+# Install command:
+#   pip install -r requirements.txt --break-system-packages
+#
+# Standard-library modules used (no install needed):
+#   json, csv, os, pathlib
+# ============================================================
+
+# Core geometry engine (polygon intersection / area calculation)
+shapely>=2.0.0
+
+# ============================================================
+# Optional / future (not required in BETA)
+# ============================================================
+# geopandas>=0.14.0   # spatial DataFrame + CRS support (RELEASE stage)
+# pyproj>=3.6.0       # accurate metric-area calculation
