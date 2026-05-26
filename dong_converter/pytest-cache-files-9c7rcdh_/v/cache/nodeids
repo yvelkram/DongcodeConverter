@@ -1,0 +1,11 @@
+[
+  "tests/test_pipeline_a.py::test_tc_a01",
+  "tests/test_pipeline_a.py::test_tc_a02",
+  "tests/test_pipeline_a.py::test_tc_a03",
+  "tests/test_pipeline_a.py::test_tc_a04",
+  "tests/test_pipeline_a.py::test_tc_a05",
+  "tests/test_pipeline_a.py::test_tc_a06",
+  "tests/test_pipeline_a.py::test_tc_a07",
+  "tests/test_pipeline_a.py::test_tc_a08",
+  "tests/test_pipeline_a.py::test_tc_a09"
+]

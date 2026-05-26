@@ -7,6 +7,7 @@ dong_converter/reference/
 # claude setting
 CLAUDE.md
 PROGRESS.md
+PROGRESS_*.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
