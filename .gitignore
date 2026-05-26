@@ -1,3 +1,13 @@
+# custom
+.idea/
+_docs/
+_etc/
+dong_converter/reference/
+
+# claude setting
+CLAUDE.md
+PROGRESS.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
