@@ -25,3 +25,20 @@ CHANGE_TYPE_WARN    = "WARN"
 
 # Output CSV column order
 TRANSITION_CSV_COLUMNS = ["code_from", "code_to", "change_type", "weight", "warn_flag"]
+
+# Pipeline B defaults
+DEFAULT_NUMERIC_AGG = "sum"        # numeric column aggregation: sum / weighted_mean
+DEFAULT_STRING_AGG  = "first"      # string column aggregation: concat / first / na
+
+CONVERSION_LOG_COLUMNS = [
+    "row_index", "code_from", "code_to", "change_type",
+    "method", "weight", "status",
+]
+
+# Column aliases (absorb column-name differences across versions)
+COLUMN_ALIASES = {
+    "adm_cd": "adm_cd2",  # 8-digit legacy code -> 10-digit standard field
+}
+
+# Error handling
+HALT_ON_ERROR = True  # BETA: halt immediately on ERROR
